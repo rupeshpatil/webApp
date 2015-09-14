@@ -4,10 +4,10 @@ Set up environment
 To setup virtual environment, We have to install some additional software.
 Install virtualenv, virtualenvwrapper
 
-sudo apt-get install python-setuptools python-dev build-essential
-sudo easy_install pip
-sudo pip install virtualenv virtualenvwrapper
-mkdir ~/.virtualenvs 
+- sudo apt-get install python-setuptools python-dev build-essential
+- sudo easy_install pip
+- sudo pip install virtualenv virtualenvwrapper
+- mkdir ~/.virtualenvs 
 
 Add following lines in your ~/.bashrc file
 	- If not exists then you can create .bashrc file
