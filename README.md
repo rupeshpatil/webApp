@@ -13,5 +13,5 @@ Web App
 
 1. Get current directory filenames
 	- http://127.0.0.1:5000/filename
-2. Login message 	
+2. Login Url 	
 	- http://127.0.0.1:5000/login
