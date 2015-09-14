@@ -12,6 +12,13 @@ Install virtualenv, virtualenvwrapper
 Add following lines in your ~/.bashrc file
 	- If not exists then you can create .bashrc file
 
+	export WORKON_HOME=$HOME/.virtualenvs
+	source /usr/local/bin/virtualenvwrapper.sh
+	export PIP_VIRTUALENV_BASE=$WORKON_HOME
+	export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
+	export PIP_RESPECT_VIRTUALENV=true
+	
+	_Make sure you have installed libmysqlclient-dev package on ubuntu
 
 mkvirtualenv projectname --no-site-packages
 workon projectname
