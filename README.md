@@ -55,9 +55,10 @@ Install requirements.txt via pip
 	python app.py
 
 
-### 4)  ###
+### 4) Technologies ###
+	
+	Flask, Mysql, SQLALchemy
 
-1. Get current directory filenames
-	- http://127.0.0.1:5000/filename
-2. Login Url 	
-	- http://127.0.0.1:5000/login
+		Flask is a "microframework" primarily aimed at small applications with simpler requirements. If not came with built in ORM or any other framework, Developer can choose development as they want, For ORM development developer can choose SQLAlchemy. Flask BSD-derived permissive licenses. Flask communties aren't large like Django but they are active on mailing and IRC
+
+
